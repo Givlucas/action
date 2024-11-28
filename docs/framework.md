@@ -8,4 +8,4 @@ of what actions need to be done Action seeks to keep track of the why.
 By enforcing a documentation structure for each action, details about 
 the why and how decisions were made and excuted allows teams to aduit 
 the result of their efforts in an agile way. Aditionally Action provides
-a rigid structure for describe the current progress state of a action.
+a rigid structure for describe the current progress state of an action.
