@@ -30,21 +30,23 @@ each task which is broken down into five sections.
 
 1. Title - Action to be preformed
 2. Statement of action - Why of action
-3. Statement of specifications. What Attributes outputs of the action should have, 
-  does it rely on a previous action (Inputs).
-4. Statement of design - Precise directions on how the action will be done. 
+3. Statement of inputs - other actions relied on
+4. Statement of specifications. What Attributes outputs of the action should have, 
+  does it rely on a previous action.
+5. Statement of design - Precise directions on how the action will be done. 
   Think methods from a lab. 
   Sections:
 	2. Design - directions for the action (Method)
 	3. Outputs - for the action (results)
-5. Analysis of impact - Did this action have the expected impact on the project?
+6. Analysis of impact - Did this action have the expected impact on the project?
 
 Additionally Action defines six stages of development that describes which section
 of the white paper should be completed during the stage. 
 
 1. Discovery - Identify problem to be solved and record scope of problem if applicable, 
   explore solutions, tools, and possible hangups.
-	- Outputs: Title, Statement of specifications, Statement of Action, generic notes
+	- Outputs: Title, Statement of specifications, Statement of Action, Statement of inputs 
+    generic notes
 2. Design - Create a clear and detailed explanation / algorithm for process. 
   Pick the tools you will use.
 	- Outputs: Statement of design, Statement of outputs
@@ -64,10 +66,10 @@ a lower state you cannot skip forward and must re-evalute each associated sectio
 the white paper.
 
 Each node starts in the discovery phase. This allows you to outline what the action is, (Title)
-why the action needs to be accomplished (Statement of action), and add in any known inputs
-(Statement of specifications). At this stage you might discover you needs to create some 
-new action to support the current. This allows you to work backwards creating a
-graph that describes what needs to be done to complete your task.
+why the action needs to be accomplished (Statement of action), add in any known inputs
+(Statement of inputs), and any know specifications ( Statement of specifications). 
+At this stage you might discover you needs to create some new action to support the current. 
+This allows you to work backwards creating a graph that describes what needs to be done to complete your task.
 
 If a task is very complex you can create a seperate action graph for that node.
 This allows you to sperate concerns and keep the parent graph from being polluted 
