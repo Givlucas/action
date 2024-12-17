@@ -31,8 +31,7 @@ each task which is broken down into five sections.
 1. Title - Action to be preformed
 2. Statement of action - Why of action
 3. Statement of inputs - other actions relied on
-4. Statement of specifications. What Attributes outputs of the action should have, 
-  does it rely on a previous action.
+4. Statement of specifications. What Attributes outputs of the action should have
 5. Statement of design - Precise directions on how the action will be done. 
   Think methods from a lab. 
   Sections:
@@ -84,15 +83,15 @@ For our example we might fill our white paper out like this
 
 - Title: Write a research paper
 - Statment of action: We need to write a paper detailing our reseach on \[BLANK\]
-- Statement of specifications:
+- Statement of inputs:
 1. Literature review
 2. Experimentation & data
 
-Since we have specifications that are not from an outside source we can create action
-nodes for each specification. These will be our inputs.  We will skip detailing the input action
-nodes for brevity, assume they have been completed. During this phase we 
-might also do some research on paper layouts and standardizations to support our design in 
-the next phase.
+We will skip detailing the input action nodes for brevity, assume they have been completed. 
+During this phase we might also do some research on paper layouts 
+and standardizations to support our design in the next phase. If we already have an idea
+of some qualities our action should have we should detail them in the "Statement of
+Specifications"
 
 Next we would enter the "Design" phase. Here we can layout an outline of our paper, what
 tools we will be using to write the paper and what standards we will be using. Things like
